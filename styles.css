@@ -70,3 +70,18 @@ button:hover {
     color: #0078d4;
     font-weight: bold;
 }
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .inputbox, button {
+        font-size: 0.9rem;
+    }
+}
