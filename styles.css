@@ -17,3 +17,56 @@ body {
     text-align: center;
     width: 400px;
 }
+
+h1 {
+    font-size: 2.2em;
+    color: #0078d4;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.inputbox {
+    width: 90%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 2px solid #0078d4;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.inputbox:focus {
+    border-color: #005bb5;
+    box-shadow: 0 0 8px rgba(0, 123, 212, 0.5);
+    outline: none;
+}
+
+button {
+    background-color: #0078d4;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#time {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #0078d4;
+    font-weight: bold;
+}
